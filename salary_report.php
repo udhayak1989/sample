@@ -5,16 +5,7 @@
 		// Log in user 
 	public function login()
 		{
-			$data['title'] = 'Sign In';
-
-			
-			
-
-
-
-
-
-
+			$data['title'] = 'Sign Inn';
 
 	$this->form_validation->set_rules('username', 'Username', 'required');
 			$this->form_validation->set_rules('password', 'Password', 'required');
